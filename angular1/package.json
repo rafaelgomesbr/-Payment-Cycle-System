@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "admin-lte": "2.3.11",
@@ -22,22 +22,22 @@
     "angular-ui-router": "1.0.3",
     "babel-core": "6.26.3",
     "babel-preset-env": "1.6.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
     "gulp-babel": "7.0.1",
     "gulp-cli": "^2.3.0",
     "gulp-concat": "2.6.1",
     "gulp-dependencies": "^0.1.1",
     "gulp-htmlmin": "3.0.0",
+    "gulp-sass": "4.0.1",
+    "gulp-typescript": "4.0.2",
     "gulp-uglify": "3.0.0",
     "gulp-uglifycss": "1.0.9",
     "gulp-util": "3.0.8",
     "gulp-watch": "4.3.11",
     "gulp-webserver": "0.9.1",
-    "gulp-sass": "4.0.1",
-    "gulp-typescript": "4.0.2",
     "run-sequence": "2.2.0",
     "typescript": "2.8.3"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
