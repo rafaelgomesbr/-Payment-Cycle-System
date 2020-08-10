@@ -17,7 +17,14 @@ Website developed using the AngularJs and Gulp.
 
 # Usage
 1. Fork the repo and then clone it or download it.
-2. Open the backend folder and enter the command.
+ 
+2. Stater Mongo
+* open a new console window and type
+  ```bash
+   # mongod
+  ```
+
+3. Open the backend folder and enter the command.
   
     ```bash
     # with npm
@@ -28,15 +35,15 @@ Website developed using the AngularJs and Gulp.
     ```
 
  
-* then type in the console:
+* then type in the console for starter the server:
   
   ```bash
    # npm run production
   ```
        
-* for starter the server:
 
-3. Open the fronted folder and enter the command
+
+4. Open the angular1 folder and enter the command
 
    ```bash
     # with npm
