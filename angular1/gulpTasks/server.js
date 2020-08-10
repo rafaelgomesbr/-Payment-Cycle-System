@@ -6,9 +6,10 @@ const watch = require("gulp-watch");
 function server() {
   return gulp.src("public")
   .pipe(webserver({
-      port: 3000,
+      port: 4000,
       open: true,
-      livereload: true,
+      hostname:'http://localhost:4000',
+      livereload: false,
     })
   )
 }

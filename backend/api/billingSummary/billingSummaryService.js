@@ -16,5 +16,3 @@ const BillingCycle = require("../billingCycle/billingCycle");
   })}
 
 module.exports = { getSummary };
-
-

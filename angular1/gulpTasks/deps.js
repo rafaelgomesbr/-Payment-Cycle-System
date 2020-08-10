@@ -37,6 +37,9 @@ function depsJS() {
       "node_modules/admin-lte/bootstrap/js/bootstrap.min.js",
       "node_modules/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js",
       "node_modules/admin-lte/dist/js/app.min.js",
+      "node_modules/axios/dist/axios.min.js",
+      "node_modules/qs/dist/qs.js",
+      
     ])
     .pipe(uglify())
     .pipe(concat("deps.min.js"))
